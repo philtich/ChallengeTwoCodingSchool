@@ -6,9 +6,15 @@
 
   .BlogGrid {@apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 container py-6 h-full}
 
-  .BlogGrid > div {@apply first:col-span-full first:flex-col first:md:flex-row container w-full first:container first:h-max}
+  .BlogGrid > div {@apply first:md:col-span-full first:flex-col first:lg:flex-row container w-full first:container}
 
-  .BlogGrid:nth-child(1) div:first-child img {@apply w-1/2 object-contain}
+  .BlogGrid:nth-child(1) div:first-child img {@apply lg:w-1/2}
+
+  .BlogGrid:nth-child(1) div:first-child  {@apply w-full}
+
+  .BlogGrid:nth-child(1) div:first-child > div > div {@apply lg:h-10}
+
+
 
   
 

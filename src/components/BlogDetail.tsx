@@ -20,7 +20,7 @@ export const BlogDetail = () => {
                 {thisId.id > 1 && (<Link to={`/${thisId.id-1}`}>Previous Article</Link>)}
                 {thisId.id < 15 && (<Link to={`/${thisId.id+1}`}>Next Article</Link>)} 
            </div>
-            <img className="aspect-4/3"src={`${thisId.image}`}></img>
+            <img className="aspect-4/3 w-1/2"src={`${thisId.image}`}></img>
         </div>
     )
 }
