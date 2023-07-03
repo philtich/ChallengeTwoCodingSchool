@@ -1,8 +1,8 @@
 import React from 'react'
 
 import { Outlet, Link } from "react-router-dom";
-import { Pageheader } from './common/pageheader';
-import { Pagefooter } from './common/pagefooter';
+import { Pageheader } from './common/Pageheader';
+import { Pagefooter } from './common/Pagefooter';
 
 
 export const Layout = () => {

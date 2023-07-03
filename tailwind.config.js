@@ -4,13 +4,23 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  theme: {
-    extend: {
-      gridTemplateColumns: {
-        // Simple 16 column grid
-        '16': 'repeat(3, 1fr)'
+  theme:{
+    container: {
+
+      center: true,
+
+      screens: {
+        xs: '300px',
+        sm: '570px',
+        md: '728px',
+        lg: '984px',
+        xl: '1240px',
+        '2xl': '1496px',
+      },
     },
-  },
+    aspectRatio: {
+      '4/3': '4 / 3',
+    },
   plugins: [],
 }
 }

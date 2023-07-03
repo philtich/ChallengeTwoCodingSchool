@@ -13,12 +13,14 @@ export const BlogDetail = () => {
     
     
     return (
-        <div>
-            <h2>{thisId.title}</h2>
+        <div className='container py-6 flex-col flex gap-2'>
+            <h2 className='text-3xl text-blue-600 font-bold'>{thisId.title}</h2>
             <p>{thisId.desc}</p>
-            <img src={`${thisId.image}`}></img>
-           {thisId.id < 15 && (<Link to={`/${thisId.id+1}`}>Next Article</Link>)} 
-            {thisId.id > 1 && (<Link to={`/${thisId.id-1}`}>Previous Article</Link>)}
+            <div className='flex flex-row gap-6'>
+                {thisId.id > 1 && (<Link to={`/${thisId.id-1}`}>Previous Article</Link>)}
+                {thisId.id < 15 && (<Link to={`/${thisId.id+1}`}>Next Article</Link>)} 
+           </div>
+            <img className="aspect-4/3"src={`${thisId.image}`}></img>
         </div>
     )
 }
