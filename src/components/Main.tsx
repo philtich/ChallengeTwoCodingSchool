@@ -1,6 +1,7 @@
 import React from 'react'
 
 import daten from '../daten'
+
 import { Blog } from './Blog'
 
 export type Blogtype = {

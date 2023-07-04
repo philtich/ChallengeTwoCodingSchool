@@ -11,12 +11,12 @@ export const Pagefooter = () => {
         <div className="flex-col gap-2 flex">
           <h4 className='text-2xl'>Lass uns Freunde bleiben</h4>
           <div className='flex flex-row gap-4'>
-            <a href="http:/www.facebook.com"><img className="w-8 h-8"src="/src/assets/socials/facebook-icon.svg" alt="Facebook-Logo"></img></a>
-            <a href="http:/www.instagram.com"><img className="w-8 h-8" src="/src/assets/socials/instagram-icon.svg" alt="Instagram-Logo"></img></a>
+            <a href="https:/www.facebook.com" target="_blank"><img className="w-8 h-8"src="/src/assets/socials/facebook-icon.svg" alt="Facebook-Logo"></img></a>
+            <a href="https:/www.instagram.com" target="_blank"><img className="w-8 h-8" src="/src/assets/socials/instagram-icon.svg" alt="Instagram-Logo"></img></a>
           </div>
         </div>
       </div>
-      <p> Copyright</p>
+      <p> © Philipp Tichy</p>
       
     </section>
   )

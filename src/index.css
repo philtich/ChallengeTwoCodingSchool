@@ -14,6 +14,8 @@
 
   .BlogGrid:nth-child(1) div:first-child > div > div {@apply lg:h-10}
 
+  .BlogGrid:nth-child(1) div:first-child  div:nth-child(4) {@apply lg:w-[99%]}
+
 
 
   
