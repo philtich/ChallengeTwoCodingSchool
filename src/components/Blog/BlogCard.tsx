@@ -1,10 +1,6 @@
-import React from 'react'
-
-import daten from '../daten'
-
 import { Link } from "react-router-dom";
 
-import { Blogtype } from './Main'
+import { Blogtype } from '../../App'
 
 type BlogProps = {
     blog: Blogtype;

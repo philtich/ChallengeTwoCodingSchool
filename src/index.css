@@ -16,6 +16,10 @@
 
   .BlogGrid:nth-child(1) div:first-child  div:nth-child(4) {@apply lg:w-[99%]}
 
+  .inputBlog{@apply border-blue-600 p-2 rounded-md border-2}
+
+  .errorP{@apply text-red-600 shadow-2xl p-4 border border-blue-600 rounded-md}
+
 
 
   
